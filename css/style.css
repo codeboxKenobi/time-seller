@@ -2487,7 +2487,8 @@ body {
   }
   .go-mailing-input {
     padding-top: 10px;
-    height: 26px;
+    border-radius: 2px;
+    height: 36px;
     width: 250px;
   }
 .boxi-wrapper1 {
