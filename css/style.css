@@ -2474,7 +2474,7 @@ body {
   .go-mailing {
     height: 80%;
     width: 90%;
-    padding-top: 5px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 50px;
     display: flex;
@@ -2499,10 +2499,10 @@ body {
     display: -webkit-flex;
     align-items: center;
   }
-    .go-mailing-button {
+  .go-mailing-button {
     padding-top: 10px;
     border-radius: 2px;
-    height: 36px;
+    height: 34px;
     width: 150px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
