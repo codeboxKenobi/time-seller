@@ -2328,7 +2328,7 @@ body {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: -webkit-flex;
     justify-content: center;
-    align-items: center;
+
   }
   
   .arr-img-down {
