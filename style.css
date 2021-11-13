@@ -1844,7 +1844,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 260px;
+    width: 200px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1856,7 +1856,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 260px;
+    width: 200px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2575,3 +2575,29 @@ body {
 
 /* footer */
 
+@media screen and (max-width: 1100px) {
+    .arr-model-down {
+    height: 20px;
+    width: 260px;
+    margin-top: 20px;
+    display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .arr-price-down {
+    height: 20px;
+    width: 260px;
+    margin-top: 20px;
+    display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
