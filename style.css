@@ -1844,7 +1844,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 200px;
+    width: 70%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1856,7 +1856,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 1200px;
+    width: 70%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1943,7 +1943,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 100%;
+    width: 60%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1955,7 +1955,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 100%;
+    width: 60%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2045,7 +2045,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 160px;
+    width: 100%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2057,7 +2057,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 160px;
+    width: 100%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2116,7 +2116,7 @@ body {
   }
   .arr-img {
     height: 100%;
-    width: 260px;
+    width: 240px;
     background: #191b1c;
     display: flex;
     flex-direction: column;
@@ -2150,7 +2150,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 220px;
+    width: 240px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2162,7 +2162,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 220px;
+    width: 240px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
