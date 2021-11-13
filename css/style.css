@@ -2460,6 +2460,7 @@ body {
 .mailing-text {
   height: 41px;
   width: 80%;
+  margin-bottom: 14px;
   text-align: center;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
