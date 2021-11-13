@@ -2485,6 +2485,7 @@ body {
     align-items: center;
   }
   .go-mailing-input {
+    padding-top: 10px;
     height: 26px;
     width: 250px;
   }
