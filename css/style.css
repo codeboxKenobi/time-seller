@@ -2491,6 +2491,12 @@ body {
     height: 36px;
     width: 250px;
   }
+    .go-mailing-button {
+    padding-top: 10px;
+    border-radius: 2px;
+    height: 36px;
+    width: 150px;
+  }
 .boxi-wrapper1 {
   height: 70px;
   width: 100%;
