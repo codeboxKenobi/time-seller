@@ -2163,7 +2163,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 220px%;
+    width: 220px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
