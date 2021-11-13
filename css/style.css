@@ -1845,7 +1845,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 100%;
+    width: 200px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1857,7 +1857,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 100%;
+    width: 200px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1944,7 +1944,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 100%;
+    width: 160px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1956,7 +1956,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 100%;
+    width: 160px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2151,7 +2151,7 @@ body {
   }
   .arr-model {
     height: 20px;
-    width: 104%;
+    width: 220px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2163,7 +2163,7 @@ body {
   }
   .arr-price {
     height: 20px;
-    width: 104%;
+    width: 220px%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
