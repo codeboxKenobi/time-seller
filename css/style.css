@@ -2597,8 +2597,8 @@ body {
 }
 
 /* footer */
-
-  .arr-model-down {
+  @media screen and(max-width: 1920px) {
+      .arr-model-down {
     height: 20px;
     width: 260px;
     margin-top: 20px;
@@ -2623,6 +2623,8 @@ body {
     align-items: center;
   }
 }
+
+
 
 
 
