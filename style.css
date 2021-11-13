@@ -388,8 +388,8 @@ body {
   align-items: center;
 }
 .arr-img {
-  height: 365px;
-  width: 260px;
+  height: 345px;
+  width: 250px;
   background: #191b1c;
   display: flex;
   flex-direction: column;
