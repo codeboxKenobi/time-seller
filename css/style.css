@@ -2472,7 +2472,7 @@ body {
 }
 
   .go-mailing {
-    height: 30%;
+    height: 40%;
     width: 90%;
     margin-left: 10px;
     margin-bottom: 50px;
@@ -2486,8 +2486,6 @@ body {
     align-items: center;
   }
   .go-mailing-input {
-    z-index: 100;
-    padding-top: 5px;
     border-radius: 2px;
     height: 36px;
     width: 250px;
