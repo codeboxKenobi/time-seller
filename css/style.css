@@ -2600,7 +2600,7 @@ body {
 
    .arr-model-down {
     height: 20px;
-    width: 260px;
+    width: 100%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2612,7 +2612,7 @@ body {
   }
   .arr-price-down {
     height: 20px;
-    width: 270px;
+    width: 100%;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
