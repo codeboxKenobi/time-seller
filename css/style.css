@@ -2597,8 +2597,8 @@ body {
 }
 
 /* footer */
-  @media screen and(max-width: 1920px) {
-      .arr-model-down {
+
+   .arr-model-down {
     height: 20px;
     width: 260px;
     margin-top: 20px;
@@ -2612,7 +2612,7 @@ body {
   }
   .arr-price-down {
     height: 20px;
-    width: 260px;
+    width: 270px;
     margin-top: 20px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2622,7 +2622,7 @@ body {
     justify-content: flex-start;
     align-items: center;
   }
-}
+
 
 
 
