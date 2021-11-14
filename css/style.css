@@ -952,7 +952,7 @@ body {
 
   .go-mailing-input {
     height: 41px;
-    width: 150px;
+    min-width: 200px;
     margin-top: 20px;
     background-color: #a7a2a2;
     display: flex;
