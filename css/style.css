@@ -2489,7 +2489,7 @@ body {
   .go-mailing-input {
     border-radius: 2px;
     height: 36px;
-    width: 250px;
+    min-width: 250px;
     padding-left: 10px;
     padding-right: 10px;
     border: none;
