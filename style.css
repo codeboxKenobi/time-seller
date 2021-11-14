@@ -2471,9 +2471,8 @@ body {
 }
 
 .go-mailing {
-  height: 90%;
+  height: 100%;
   width: 70%;
-  padding-top: 5px;
   margin-bottom: 50px;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
