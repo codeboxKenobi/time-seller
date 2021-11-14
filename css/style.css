@@ -954,6 +954,8 @@ body {
     height: 41px;
     min-width: 200px;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #a7a2a2;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
