@@ -105,15 +105,7 @@ body {
   min-width: 200px;
   margin-left: 10px;
   font-size: 13px;
-  text-decoration: none;
   color: var(--top-text-color);
-}
-.number:hover {
-  min-width: 200px;
-  margin-left: 10px;
-  font-size: 13px;
-  text-decoration: none;
-  color: white;
 }
 .box-m2-number {
   height: 100%;
@@ -121,11 +113,8 @@ body {
   margin-left: 10px;
   font-size: 13px;
   color: var(--top-text-color);
-  text-decoration: none;
 }
-.box-m2-number:hover {
-  color: var(--top-text-color);
-}
+
 .graph {
   min-width: 200px;
   margin-left: 10px;
@@ -166,14 +155,8 @@ body {
   align-items: center;
 }
 .login-registr {
-  margin-left: 5px;
+  margin-left: 10px;
   text-decoration: none;
-  color: var( --top-text-color );
-}
-.login-registr:hover {
-  margin-left: 5px;
-  text-decoration: none;
-  color: white;
 }
 .header {
   height: 88px;
@@ -354,6 +337,7 @@ body {
 .season21 {
   height: 100px;
   width: 30%;
+  margin-top: -20px;
   margin-bottom: -12px;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -364,7 +348,7 @@ body {
   align-items: center;
 }
 .slider-box {
-    height: 50%;
+    height: 55%;
     width: 100%;
     margin-bottom: 80px;
     display: flex;
@@ -405,8 +389,8 @@ body {
   align-items: center;
 }
 .arr-img {
-  height: 365px;
-  width: 260px;
+  height: 345px;
+  width: 250px;
   background: #191b1c;
   display: flex;
   flex-direction: column;
@@ -778,7 +762,7 @@ body {
 
 .us-logo {
     height: 150px;
-    width: 1070px;
+    width: 55%;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -968,21 +952,19 @@ body {
   align-items: center;
 }
 
-  .go-mailing-input {
-    height: 41px;
-    min-width: 200px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #a7a2a2;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-  }
+.go-mailing-input {
+  height: 41px;
+  width: 210px;
+  padding-left: 10px;
+  background-color: #a7a2a2;
+  display: flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .go-mailing-input::-webkit-input-placeholder {
   /* WebKit browsers */
@@ -999,7 +981,6 @@ body {
 .go-mailing-button {
   height: 41px;
   width: 140px;
-  margin-top: 20px;
   background-color: #0f0f0f;
   color: white;
   border: none;
@@ -1026,7 +1007,7 @@ body {
 }
 .bottom-line-wrapper {
     height: 100%;
-    width: 1070px;
+    width: 56%;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -1196,7 +1177,6 @@ body {
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex;
   justify-content: center;
-  align-items: center;
 }
 
 .arr-img-down {
@@ -1683,7 +1663,7 @@ body {
     align-items: center;
   }
   .arr-img {
-    height: 385px;
+    height: 365px;
     width: 280px;
     background: #191b1c;
     display: flex;
@@ -1696,8 +1676,8 @@ body {
     align-items: center;
   }
   .arr-item {
-    height: 385px;
-    width: 280px;
+    height: 365px;
+    width: 260px;
     margin-top: 50px;
     margin-left: 35px;
     margin-right: 35px;
@@ -1770,7 +1750,7 @@ body {
     align-items: center;
   }
   .img-clock {
-    height: 70%;
+    height: 50%;
   }
   .arr-item {
     height: 385px;
@@ -2050,7 +2030,7 @@ body {
   }
   .arr-item-one {
     height: 385px;
-    width: 280px;
+    width: 278px;
     margin-top: 50px;
     margin-left: -50px;  
     margin-right: -50px;
@@ -2136,7 +2116,7 @@ body {
   }
   .arr-img {
     height: 100%;
-    width: 220px;
+    width: 240px;
     background: #191b1c;
     display: flex;
     flex-direction: column;
@@ -2155,7 +2135,7 @@ body {
   }
   .arr-item-one {
     height: 385px;
-    width: 280px;
+    width: 260px;
     margin-top: 50px;
     margin-left: -50px;  
     margin-right: -50px;
@@ -2295,6 +2275,7 @@ body {
     .arriv-items {
       height: 64%;
       width: 60%;
+      border-bottom: 1px solid rgb(219, 219, 219);
       overflow: scroll; 
       margin-top: 10px;
       display: flex;
@@ -2347,7 +2328,7 @@ body {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: -webkit-flex;
     justify-content: center;
-
+    align-items: center;
   }
   
   .arr-img-down {
@@ -2490,48 +2471,18 @@ body {
   align-items: center;
 }
 
-  .go-mailing {
-    height: 90%;
-    width: 90%;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .go-mailing-input {
-    border-radius: 2px;
-    height: 36px;
-    min-width: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: none;
-    outline: none;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    align-items: center;
-  }
-  .go-mailing-button {
-    border-radius: 2px;
-    height: 34px;
-    width: 150px;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-  }
+.go-mailing {
+  height: 100%;
+  width: 70%;
+  margin-bottom: 50px;
+  display: flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
 .boxi-wrapper1 {
   height: 70px;
   width: 100%;
@@ -2609,72 +2560,18 @@ body {
   align-items: center;
 }
 
-  .boxi5 {
-    height: 41px;
-    width: 91px;
-    background-color: #0f0f0f;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .bottom-line-wrapper {
-    height: 100%;
-    width: 56%;
-    display: flex;
-    flex-direction: column;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
+.boxi5 {
+  height: 41px;
+  width: 91px;
+  background-color: #0f0f0f;
+  display: flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
 }
-.copy-by {
-  margin-top: 0px;
-  height: 20%;
-}
-
-  .made-by {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 20%;
-  }
 }
 
 /* footer */
-
-   .arr-model-down {
-    height: 20px;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .arr-price-down {
-    height: 20px;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-
-
-
-
-
-
