@@ -1441,6 +1441,7 @@ body {
     width: 100%;
     margin-left: 10px;
     font-size: 24px;
+    text-decoration: none;
     color: var(--top-text-color);
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1501,6 +1502,7 @@ body {
     width: 100%;
     margin-left: 10px;
     font-size: 18px;
+    text-decoration: none;
     color: var(--top-text-color);
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2623,7 +2625,7 @@ body {
   }
   .bottom-line-wrapper {
     height: 100%;
-    width: 56%;
+    width: 1070px;
     display: flex;
     flex-direction: column;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
