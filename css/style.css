@@ -190,7 +190,7 @@ body {
 .logo-nav-wrapper {
   height: 100%;
   width: 55%;
-  background-color: #070707;
+  background-color: #080707;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -208,7 +208,7 @@ body {
 .header-nav {
   height: 84px;
   width: 80%;
-  background-color: #070707;
+  background-color: #080707;
   margin-left: 20px;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -225,7 +225,7 @@ body {
   min-width: 100px;
   border: none;
   outline: none;
-  background-color: #070707;
+  background-color: #080707;
   color: var(--top-text-color);
   font-size: 12px;
   display: flex;
@@ -244,7 +244,7 @@ body {
   width: 33%;
   border: none;
   outline: none;
-  background-color: #070707;
+  background-color: #080707;
   color: var(--top-text-color);
   font-size: 12px;
   display: flex;
@@ -265,7 +265,7 @@ body {
     min-width: 150px;
     border: none;
     outline: none;
-    background-color: #070707;
+    background-color: #080707;
     color: var(--top-text-color);
     font-size: 12px;
     display: flex;
