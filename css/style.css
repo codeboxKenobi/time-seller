@@ -124,7 +124,7 @@ body {
   text-decoration: none;
 }
 .box-m2-number:hover {
-  color: var(--top-text-color);
+  color: white;
 }
 .graph {
   min-width: 200px;
