@@ -105,7 +105,15 @@ body {
   min-width: 200px;
   margin-left: 10px;
   font-size: 13px;
+  text-decoration: none;
   color: var(--top-text-color);
+}
+.number:hover {
+  min-width: 200px;
+  margin-left: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
 }
 .box-m2-number {
   height: 100%;
@@ -113,8 +121,11 @@ body {
   margin-left: 10px;
   font-size: 13px;
   color: var(--top-text-color);
+  text-decoration: none;
 }
-
+.box-m2-number:hover {
+  color: var(--top-text-color);
+}
 .graph {
   min-width: 200px;
   margin-left: 10px;
@@ -155,12 +166,19 @@ body {
   align-items: center;
 }
 .login-registr {
-  margin-left: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: var( --top-text-color );
+}
+.login-registr:hover {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
 }
 .header {
   height: 88px;
   width: 100%;
-  background-color: #0f0f0f;
+  background-color: #070707;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -760,7 +778,7 @@ body {
 
 .us-logo {
     height: 150px;
-    width: 55%;
+    width: 1070px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -1008,7 +1026,7 @@ body {
 }
 .bottom-line-wrapper {
     height: 100%;
-    width: 56%;
+    width: 1070px;
     display: flex;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -2277,7 +2295,6 @@ body {
     .arriv-items {
       height: 64%;
       width: 60%;
-      border-bottom: 1px solid rgb(219, 219, 219);
       overflow: scroll; 
       margin-top: 10px;
       display: flex;
