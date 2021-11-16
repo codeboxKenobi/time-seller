@@ -1413,7 +1413,7 @@ body {
   .box-m2-items {
     height: auto;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
